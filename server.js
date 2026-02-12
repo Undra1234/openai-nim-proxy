@@ -19,7 +19,7 @@ const APP_URL = process.env.APP_URL || 'https://github.com/yourusername/openai-o
 // Model mapping - All routes to Pony Alpha
 const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'openrouter/aurora-alpha',
-  'gpt-4': 'openrouter/aurora-alpha',
+  'gpt-4': 'sourceful/riverflow-v2-pro',
   'gpt-4-turbo': 'openrouter/aurora-alpha',
   'gpt-4o': 'openrouter/aurora-alpha',
 };
