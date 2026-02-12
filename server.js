@@ -18,10 +18,10 @@ const APP_URL = process.env.APP_URL || 'https://github.com/yourusername/openai-o
 
 // Model mapping - All routes to Pony Alpha
 const MODEL_MAPPING = {
-  'gpt-3.5-turbo': 'openrouter/pony-alpha',
-  'gpt-4': 'openrouter/pony-alpha',
-  'gpt-4-turbo': 'openrouter/pony-alpha',
-  'gpt-4o': 'openrouter/pony-alpha',
+  'gpt-3.5-turbo': 'z-ai/glm-5',
+  'gpt-4': 'z-ai/glm-5',
+  'gpt-4-turbo': 'z-ai/glm-5',
+  'gpt-4o': 'z-ai/glm-5',
 };
 
 // Health check endpoint
